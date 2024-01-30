@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    width: 4rem;
+    padding: 0.5rem;
+}
+
+/* ------------------------------------------------------- */
+
+#soydiv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 133vh;
+}
+
+#soybox{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-weight: 500;
+    position: absolute;
+}
+
+.SOY{
+    font-size: 57.2vw;
+    font-weight: 200;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------- */
+
+#habilidadesdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 133vh;
+}
+
+#habilidadesbox{
+    background-color: #ffffff;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    padding: 0.6rem;
+}
+
+#habilidadesbox2{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+#frontend{
+    font-weight: 500;
+}
+
+.HABILIDADES{
+    font-size: 17vw;
+    font-weight: 200;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------- */
+
+#contactodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 133vh;
+}
+
+#contactobox{
+    background-color: #ffffff;
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+    line-height: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+}
+
+#contact{
+    text-decoration: none;
+    color: #000000;
+}
+
+#contact:active{
+    color: #000000;
+}
+
+.CONTACTO{
+    font-size: 19.6vw;
+    font-weight: 200;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
